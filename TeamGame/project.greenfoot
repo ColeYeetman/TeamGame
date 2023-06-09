@@ -1,4 +1,5 @@
 #Greenfoot project file
+class.MyWorld.image=800x600-light-blue-solid-color-background.jpg
 class.Player.image=baby1.png
 dependency1.from=MyWorld
 dependency1.to=Player
