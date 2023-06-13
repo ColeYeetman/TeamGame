@@ -10,7 +10,7 @@ public class PlatformerLevel extends World
     private int smoothScrollY = 0;
     private boolean centerScrollMode = false;
     
-    private Player player;
+    private Player Player;
     
     /**
      * Constructor for objects of class MyWorld.
@@ -30,10 +30,17 @@ public class PlatformerLevel extends World
     }
     
     private void prepare() {
-        addObject(new Player(), 400, 750);
-        Platform platform = new Platform(200, 200);
-        addObject(platform,600,750);
-        SolidObject SolidObject = new SolidObject(200, 200);
-        addObject(SolidObject,300,750);
+        Player = new Player("left", "right", "space");
+        addObject(Player,50,550);
+        Platform platform = new Platform(200, 20);
+        addObject(platform,100,750);
+         Platform platform2 = new Platform(200, 20);
+        addObject(platform2,300,750);
+         Platform platform3 = new Platform(200, 20);
+        addObject(platform3,500,650);
+         Platform platform4 = new Platform(200, 20);
+        addObject(platform4,650,500);
+        SolidObject SolidObject = new SolidObject(100, 100);
+        addObject(SolidObject,400,500);
     }
 }
