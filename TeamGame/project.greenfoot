@@ -1,6 +1,6 @@
 #Greenfoot project file
 class.Enemy.image=Obito.png
-class.MyWorld.image=800x600-light-blue-solid-color-background.jpg
+class.MyWorld.image=Background\ updated.jpg
 class.Player.image=sasuke.png
 class.PowerUp.image=PowerUp1.png
 dependency1.from=MyWorld
@@ -12,10 +12,10 @@ dependency2.type=UsesDependency
 dependency3.from=MyWorld
 dependency3.to=PowerUp
 dependency3.type=UsesDependency
-editor.fx.0.height=739
-editor.fx.0.width=816
-editor.fx.0.x=232
-editor.fx.0.y=82
+editor.fx.0.height=0
+editor.fx.0.width=0
+editor.fx.0.x=0
+editor.fx.0.y=0
 height=1000
 package.numDependencies=3
 package.numTargets=4
