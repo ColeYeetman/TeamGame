@@ -1,10 +1,7 @@
 #Greenfoot project file
 class.MyWorld.image=800x600-light-blue-solid-color-background.jpg
-class.Platform.image=Platform.png
-class.PlatformerLevel.image=800x600-light-blue-solid-color-background.jpg
 class.Player.image=baby1.png
-class.SolidObject.image=house-04.png
-dependency1.from=PlatformerLevel
+dependency1.from=MyWorld
 dependency1.to=Player
 dependency1.type=UsesDependency
 editor.fx.0.height=739
@@ -65,6 +62,6 @@ target5.x=0
 target5.y=0
 version=3.0.0
 width=1296
-world.lastInstantiated=PlatformerLevel
+world.lastInstantiated=MyWorld
 xPosition=0
 yPosition=0
