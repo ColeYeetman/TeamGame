@@ -19,7 +19,7 @@ public class PlatformerLevel extends World
     public PlatformerLevel()
     {    
         // Create an unbounded world.
-        super(800, 800, 1, false);
+        super(1000, 700, 1, false);
         prepare();
 
     }
@@ -31,8 +31,8 @@ public class PlatformerLevel extends World
     
     private void prepare() {
         Player = new Player("left", "right", "space");
-        addObject(Player,50,550);
-        Platform platform = new Platform(200, 20);
+        addObject(Player,50,450);
+        Platform platform = new Platform(900, 500);
         addObject(platform,100,750);
          Platform platform2 = new Platform(200, 20);
         addObject(platform2,300,750);

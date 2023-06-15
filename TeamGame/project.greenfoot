@@ -1,8 +1,8 @@
 #Greenfoot project file
-class.MyWorld.image=800x600-light-blue-solid-color-background.jpg
+class.MyWorld.image=Background\ updated.jpg
 class.Platform.image=Platform.png
-class.PlatformerLevel.image=800x600-light-blue-solid-color-background.jpg
-class.Player.image=baby1.png
+class.PlatformerLevel.image=Background\ updated.jpg
+class.Player.image=Obito.png
 class.SolidObject.image=house-04.png
 dependency1.from=PlatformerLevel
 dependency1.to=Player
