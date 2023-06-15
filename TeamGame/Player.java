@@ -57,12 +57,12 @@ public class Player extends Actor
     {
         deltaX = 0;
         
-        if (Greenfoot.isKeyDown(leftKey))
+        if (Greenfoot.isKeyDown("a"))
         {
             deltaX = deltaX - speedX;
         }
         
-        if (Greenfoot.isKeyDown(rightKey))
+        if (Greenfoot.isKeyDown("d"))
         {
             deltaX = deltaX + speedX;
         }
@@ -97,8 +97,8 @@ public class Player extends Actor
         if (deltaY >= 0)    // if falling (as opposed to rising)
         {
             // Check whether standing on any objects.
-            List<Platform> objects = getIntersectingObjects(Platform.class);
-            for (Platform object : objects)
+            List<bottom> objects = getIntersectingObjects(bottom.class);
+            for (bottom object : objects)
             {
                 if (isStandingOnObject(object))
                 {

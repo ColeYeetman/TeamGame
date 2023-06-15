@@ -32,15 +32,23 @@ public class PlatformerLevel extends World
     private void prepare() {
         Player = new Player("left", "right", "space");
         addObject(Player,50,550);
-        Platform platform = new Platform(200, 20);
-        addObject(platform,100,750);
-         Platform platform2 = new Platform(200, 20);
-        addObject(platform2,300,750);
-         Platform platform3 = new Platform(200, 20);
-        addObject(platform3,500,650);
-         Platform platform4 = new Platform(200, 20);
-        addObject(platform4,650,500);
-        SolidObject SolidObject = new SolidObject(100, 100);
-        addObject(SolidObject,400,500);
+        Platform platform = new Platform(500, 250);
+        addObject(platform,591,777);
+        Platform platform2 = new Platform(500, 250);
+        addObject(platform2,170,777);
+        bottom bottom = new bottom();
+        addObject(bottom,80,760);
+        bottom bottom2 = new bottom();
+        addObject(bottom2,230,760);
+        bottom bottom3 = new bottom();
+        addObject(bottom3,380,760);
+        bottom bottom4 = new bottom();
+        addObject(bottom4,530,760);
+        bottom bottom5 = new bottom();
+        addObject(bottom5,680,760);
+        bottom bottom6 = new bottom();
+        addObject(bottom6,780,760);
+        
+        
     }
 }
