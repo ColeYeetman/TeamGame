@@ -34,11 +34,11 @@ public class PlatformerLevel extends World
         addObject(Player,50,450);
         Platform platform = new Platform(900, 500);
         addObject(platform,100,750);
-         Platform platform2 = new Platform(200, 20);
+        Platform platform2 = new Platform(200, 20);
         addObject(platform2,300,750);
-         Platform platform3 = new Platform(200, 20);
+        Platform platform3 = new Platform(200, 20);
         addObject(platform3,500,650);
-         Platform platform4 = new Platform(200, 20);
+        Platform platform4 = new Platform(200, 20);
         addObject(platform4,650,500);
         SolidObject SolidObject = new SolidObject(100, 100);
         addObject(SolidObject,400,500);
