@@ -19,8 +19,8 @@ public class Player extends Actor
     protected double gravity = 1;
     protected int deltaX = 0;
     protected int deltaY = 0;
-    private int speedX = 5;
-    private int jumpSpeed = 20;
+    private int speedX = 4;
+    private int jumpSpeed = 15;
     protected boolean isInAir = true;
     private boolean isFacingRight = true;
     
@@ -144,28 +144,7 @@ public class Player extends Actor
         int width = getImage().getWidth();
         int leftX = getX() - width / 2;
         int rightX = getX() + width / 2;
-        
-        List<SolidObject> objects = getIntersectingObjects(SolidObject.class);
-        for (SolidObject object : objects)
-        {
-            if (isStandingOnObject(object))
-            {
-                continue;   // Standing behaviour is handled by gravity.
-            }
             
-            // Otherwise,
-            int objectWidth = object.getImage().getWidth();
-            int objectLeftX = object.getX() - objectWidth / 2;
-            int objectRightX = object.getX() + objectWidth / 2;
-            if (getX() < object.getX())    // To the left of touching object.
-            {
-                setLocation(objectLeftX - width/2 + X_SINK_AMOUNT, getY());   // Sink into object left edge.
-            }
-            else if (getX() > object.getX())  // To the right of touching object.
-            {
-                setLocation(objectRightX + width/2 - X_SINK_AMOUNT, getY());  // Sink into object right edge.
-            }
-        }
     }
 }
 
