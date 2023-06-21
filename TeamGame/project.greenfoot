@@ -4,6 +4,9 @@ class.Platform.image=Platform.png
 class.PlatformerLevel.image=800x600-light-blue-solid-color-background.jpg
 class.Player.image=baby1.png
 class.SolidObject.image=house-04.png
+class.StartButton.image=start.png
+class.StartScreen.image=startscrn.png
+class.bottom.image=fixedBottom.png
 dependency1.from=StartScreen
 dependency1.to=StartButton
 dependency1.type=UsesDependency
@@ -25,20 +28,14 @@ dependency6.type=UsesDependency
 dependency7.from=StartButton
 dependency7.to=PlatformerLevel
 dependency7.type=UsesDependency
-editor.fx.0.height=0
-editor.fx.0.width=0
-editor.fx.0.x=0
-editor.fx.0.y=0
+editor.fx.0.height=739
+editor.fx.0.width=816
+editor.fx.0.x=232
+editor.fx.0.y=82
 height=1000
-<<<<<<< HEAD
-package.numDependencies=3
-package.numTargets=7
-project.charset=UTF-8
-=======
 package.numDependencies=7
 package.numTargets=10
 project.charset=windows-1252
->>>>>>> 46c39b9fcec34c912192df5dea70558dc8a0a471
 publish.hasSource=false
 publish.locked=true
 publish.longDesc=
@@ -67,73 +64,47 @@ target10.width=120
 target10.x=0
 target10.y=0
 target2.height=70
-<<<<<<< HEAD
-target2.name=Platform
-=======
 target2.name=Player
->>>>>>> 46c39b9fcec34c912192df5dea70558dc8a0a471
 target2.showInterface=false
 target2.type=ClassTarget
 target2.width=120
 target2.x=0
 target2.y=0
 target3.height=70
-<<<<<<< HEAD
-target3.name=SolidObject
-=======
 target3.name=Platform
->>>>>>> 46c39b9fcec34c912192df5dea70558dc8a0a471
 target3.showInterface=false
 target3.type=ClassTarget
 target3.width=120
 target3.x=0
 target3.y=0
 target4.height=70
-<<<<<<< HEAD
-target4.name=Enemy
-=======
 target4.name=bottom
->>>>>>> 46c39b9fcec34c912192df5dea70558dc8a0a471
 target4.showInterface=false
 target4.type=ClassTarget
 target4.width=120
 target4.x=0
 target4.y=0
 target5.height=70
-<<<<<<< HEAD
-target5.name=PlatformerLevel
-=======
 target5.name=SolidObject
->>>>>>> 46c39b9fcec34c912192df5dea70558dc8a0a471
 target5.showInterface=false
 target5.type=ClassTarget
 target5.width=120
 target5.x=0
 target5.y=0
 target6.height=70
-<<<<<<< HEAD
-target6.name=PowerUp
-=======
 target6.name=Enemy
->>>>>>> 46c39b9fcec34c912192df5dea70558dc8a0a471
 target6.showInterface=false
 target6.type=ClassTarget
 target6.width=120
 target6.x=0
 target6.y=0
 target7.height=70
-<<<<<<< HEAD
-target7.name=MyWorld
-=======
 target7.name=PlatformerLevel
->>>>>>> 46c39b9fcec34c912192df5dea70558dc8a0a471
 target7.showInterface=false
 target7.type=ClassTarget
 target7.width=120
 target7.x=0
 target7.y=0
-<<<<<<< HEAD
-=======
 target8.height=70
 target8.name=PowerUp
 target8.showInterface=false
@@ -148,7 +119,6 @@ target9.type=ClassTarget
 target9.width=120
 target9.x=0
 target9.y=0
->>>>>>> 46c39b9fcec34c912192df5dea70558dc8a0a471
 version=3.0.0
 width=1296
 world.lastInstantiated=StartScreen
