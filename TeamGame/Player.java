@@ -19,8 +19,8 @@ public class Player extends Actor
     protected double gravity = 1;
     protected int deltaX = 0;
     protected int deltaY = 0;
-    private int speedX = 5;
-    private int jumpSpeed = 20;
+    private int speedX = 4;
+    private int jumpSpeed = 15;
     protected boolean isInAir = true;
     private boolean isFacingRight = true;
     
@@ -48,6 +48,13 @@ public class Player extends Actor
         movementControls();
         applyGravity();
         collisions();
+         if(isTouching(Death.class)) 
+        {
+            World w = getWorld();
+            w.removeObject(this);
+            Greenfoot.setWorld(new Deather());
+        }  
+        
     }
     
     /**
