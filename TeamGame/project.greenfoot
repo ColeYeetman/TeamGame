@@ -19,23 +19,16 @@ dependency4.type=UsesDependency
 dependency5.from=Player
 dependency5.to=bottom
 dependency5.type=UsesDependency
-<<<<<<< Updated upstream
 dependency6.from=Player
 dependency6.to=SolidObject
 dependency6.type=UsesDependency
 dependency7.from=StartButton
 dependency7.to=PlatformerLevel
 dependency7.type=UsesDependency
-editor.fx.0.height=739
-editor.fx.0.width=816
-editor.fx.0.x=232
-editor.fx.0.y=82
-=======
 editor.fx.0.height=0
 editor.fx.0.width=0
 editor.fx.0.x=0
 editor.fx.0.y=0
->>>>>>> Stashed changes
 height=1000
 package.numDependencies=7
 package.numTargets=10
