@@ -1,25 +1,44 @@
 #Greenfoot project file
-class.Enemy.image=Obito.png
-class.MyWorld.image=Background\ updated.jpg
-class.Player.image=sasuke.png
-class.PowerUp.image=PowerUp1.png
-dependency1.from=MyWorld
-dependency1.to=Player
+class.MyWorld.image=800x600-light-blue-solid-color-background.jpg
+class.Platform.image=Platform.png
+class.PlatformerLevel.image=800x600-light-blue-solid-color-background.jpg
+class.Player.image=baby1.png
+class.SolidObject.image=house-04.png
+dependency1.from=StartScreen
+dependency1.to=StartButton
 dependency1.type=UsesDependency
-dependency2.from=MyWorld
-dependency2.to=Enemy
+dependency2.from=PlatformerLevel
+dependency2.to=Player
 dependency2.type=UsesDependency
-dependency3.from=MyWorld
-dependency3.to=PowerUp
+dependency3.from=PlatformerLevel
+dependency3.to=Platform
 dependency3.type=UsesDependency
+dependency4.from=PlatformerLevel
+dependency4.to=bottom
+dependency4.type=UsesDependency
+dependency5.from=Player
+dependency5.to=bottom
+dependency5.type=UsesDependency
+dependency6.from=Player
+dependency6.to=SolidObject
+dependency6.type=UsesDependency
+dependency7.from=StartButton
+dependency7.to=PlatformerLevel
+dependency7.type=UsesDependency
 editor.fx.0.height=0
 editor.fx.0.width=0
 editor.fx.0.x=0
 editor.fx.0.y=0
 height=1000
+<<<<<<< HEAD
 package.numDependencies=3
 package.numTargets=7
 project.charset=UTF-8
+=======
+package.numDependencies=7
+package.numTargets=10
+project.charset=windows-1252
+>>>>>>> 46c39b9fcec34c912192df5dea70558dc8a0a471
 publish.hasSource=false
 publish.locked=true
 publish.longDesc=
@@ -34,56 +53,104 @@ readme.x=10
 readme.y=10
 simulation.speed=50
 target1.height=70
-target1.name=Player
+target1.name=StartScreen
 target1.showInterface=false
 target1.type=ClassTarget
 target1.width=120
 target1.x=0
 target1.y=0
+target10.height=70
+target10.name=StartButton
+target10.showInterface=false
+target10.type=ClassTarget
+target10.width=120
+target10.x=0
+target10.y=0
 target2.height=70
+<<<<<<< HEAD
 target2.name=Platform
+=======
+target2.name=Player
+>>>>>>> 46c39b9fcec34c912192df5dea70558dc8a0a471
 target2.showInterface=false
 target2.type=ClassTarget
 target2.width=120
 target2.x=0
 target2.y=0
 target3.height=70
+<<<<<<< HEAD
 target3.name=SolidObject
+=======
+target3.name=Platform
+>>>>>>> 46c39b9fcec34c912192df5dea70558dc8a0a471
 target3.showInterface=false
 target3.type=ClassTarget
 target3.width=120
 target3.x=0
 target3.y=0
 target4.height=70
+<<<<<<< HEAD
 target4.name=Enemy
+=======
+target4.name=bottom
+>>>>>>> 46c39b9fcec34c912192df5dea70558dc8a0a471
 target4.showInterface=false
 target4.type=ClassTarget
 target4.width=120
 target4.x=0
 target4.y=0
 target5.height=70
+<<<<<<< HEAD
 target5.name=PlatformerLevel
+=======
+target5.name=SolidObject
+>>>>>>> 46c39b9fcec34c912192df5dea70558dc8a0a471
 target5.showInterface=false
 target5.type=ClassTarget
 target5.width=120
 target5.x=0
 target5.y=0
 target6.height=70
+<<<<<<< HEAD
 target6.name=PowerUp
+=======
+target6.name=Enemy
+>>>>>>> 46c39b9fcec34c912192df5dea70558dc8a0a471
 target6.showInterface=false
 target6.type=ClassTarget
 target6.width=120
 target6.x=0
 target6.y=0
 target7.height=70
+<<<<<<< HEAD
 target7.name=MyWorld
+=======
+target7.name=PlatformerLevel
+>>>>>>> 46c39b9fcec34c912192df5dea70558dc8a0a471
 target7.showInterface=false
 target7.type=ClassTarget
 target7.width=120
 target7.x=0
 target7.y=0
+<<<<<<< HEAD
+=======
+target8.height=70
+target8.name=PowerUp
+target8.showInterface=false
+target8.type=ClassTarget
+target8.width=120
+target8.x=0
+target8.y=0
+target9.height=70
+target9.name=MyWorld
+target9.showInterface=false
+target9.type=ClassTarget
+target9.width=120
+target9.x=0
+target9.y=0
+>>>>>>> 46c39b9fcec34c912192df5dea70558dc8a0a471
 version=3.0.0
 width=1296
-world.lastInstantiated=MyWorld
+world.lastInstantiated=StartScreen
 xPosition=0
 yPosition=0
